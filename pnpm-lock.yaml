@@ -12,6 +12,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-react: ^7.31.8
   eslint-plugin-react-hooks: ^4.6.0
+  eslint-plugin-simple-import-sort: ^8.0.0
   husky: ^8.0.0
   lint-staged: ^13.0.3
   postcss: ^8.4.16
@@ -39,6 +40,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_tgumt6uwl2md3n6uqnggd6wvce
   eslint-plugin-react: 7.31.8_eslint@8.23.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.23.0
+  eslint-plugin-simple-import-sort: 8.0.0_eslint@8.23.0
   husky: 8.0.1
   lint-staged: 13.0.3
   postcss: 8.4.16
@@ -1779,6 +1781,17 @@ packages:
       resolve: 2.0.0-next.4
       semver: 6.3.0
       string.prototype.matchall: 4.0.7
+    dev: true
+
+  /eslint-plugin-simple-import-sort/8.0.0_eslint@8.23.0:
+    resolution:
+      {
+        integrity: sha512-bXgJQ+lqhtQBCuWY/FUWdB27j4+lqcvXv5rUARkzbeWLwea+S5eBZEQrhnO+WgX3ZoJHVj0cn943iyXwByHHQw==,
+      }
+    peerDependencies:
+      eslint: '>=5.0.0'
+    dependencies:
+      eslint: 8.23.0
     dev: true
 
   /eslint-scope/5.1.1:
